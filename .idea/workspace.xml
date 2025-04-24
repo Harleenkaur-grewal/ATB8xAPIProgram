@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfbff48-f885-4308-a27b-3306f471b086" name="Changes" comment="API test added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest003_BuilderPattern.java" afterDir="false" />
+    <list default="true" id="4dfbff48-f885-4308-a27b-3306f471b086" name="Changes" comment="API Builder Method">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest004_TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest005_BDDStyle_TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest006_NonBDDStyle_TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-get.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +48,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.APITEST001.executor&quot;: &quot;Run&quot;,
-    &quot;Application.APITest002.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.APITEST001.executor": "Run",
+    "Application.APITest002.executor": "Run",
+    "Application.APITest003_BuilderPattern.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.APITest004_TestNG.executor": "Run",
+    "TestNG.APITest005_TestNG.executor": "Run",
+    "TestNG.APITest005_TestNG.test_GET_Req_Neg.executor": "Run",
+    "TestNG.C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hkgre\IdeaProjects\ATB8xAPIProgram" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml">
+    <configuration name="APITest004_TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sampleCheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.sampleCheck" />
+      <option name="MAIN_CLASS_NAME" value="org.example.sampleCheck.APITest004_TestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest005_TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sampleCheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.sampleCheck" />
+      <option name="MAIN_CLASS_NAME" value="org.example.sampleCheck.APITest005_TestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest005_TestNG.test_GET_Req_Neg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sampleCheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.sampleCheck" />
+      <option name="MAIN_CLASS_NAME" value="org.example.sampleCheck.APITest005_TestNG" />
+      <option name="METHOD_NAME" value="test_GET_Req_Neg" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIProgram" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-get.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml" />
+        <item itemvalue="TestNG.APITest005_TestNG.test_GET_Req_Neg" />
+        <item itemvalue="TestNG.APITest005_TestNG" />
+        <item itemvalue="TestNG.APITest004_TestNG" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,12 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744675548194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="API Builder Method">
+      <option name="closed" value="true" />
+      <created>1744755123164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744755123165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven" />
     <MESSAGE value="API test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="API test added" />
+    <MESSAGE value="API Builder Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Builder Method" />
   </component>
 </project>
