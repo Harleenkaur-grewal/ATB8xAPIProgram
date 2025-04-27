@@ -25,16 +25,16 @@ public class APITest005_BDDStyle_TestNG {
         String pin_code ="-1";
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us/")
-                .basePath("/IN/"+pin_code)
+                    .baseUri("https://api.zippopotam.us/")
+                    .basePath("/IN/"+pin_code)
                 .when()
-                .log()
-                .all()
-                .get()
+                    .log()
+                    .all()
+                    .get()
                 .then()
-                .log()
-                .all()
-                .statusCode(200);
+                    .log()
+                    .all()
+                    .statusCode(200);
     }
 
 
