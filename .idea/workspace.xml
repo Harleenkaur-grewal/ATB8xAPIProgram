@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfbff48-f885-4308-a27b-3306f471b086" name="Changes" comment="TestNG BDD and Non-BDD">
+    <list default="true" id="4dfbff48-f885-4308-a27b-3306f471b086" name="Changes" comment="TestNG BDD and Non-BDD changes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/POST/APITest007_BDDStyle_TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/POST/APITest008_NonBDDStyle_TestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest005_BDDStyle_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest005_BDDStyle_TestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest006_NonBDDStyle_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest006_NonBDDStyle_TestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest005_BDDStyle_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GET/APITest005_BDDStyle_TestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sampleCheck/APITest006_NonBDDStyle_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GET/APITest006_NonBDDStyle_TestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng-get.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-get.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +64,8 @@
     "TestNG.APITest006_NonBDDStyle_TestNG.executor": "Run",
     "TestNG.APITest006_NonBDDStyle_TestNG.test_NonBDDStyle_GET.executor": "Run",
     "TestNG.APITest006_NonBDDStyle_TestNG.test_NonBDDStyle_GET_Pos.executor": "Run",
+    "TestNG.APITest007_BDDStyle_TestNG.executor": "Run",
+    "TestNG.APITest008_NonBDDStyle_TestNG.executor": "Run",
     "TestNG.C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -76,17 +79,17 @@
       <recent name="C:\Users\hkgre\IdeaProjects\ATB8xAPIProgram" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.APITest006_NonBDDStyle_TestNG">
+  <component name="RunManager" selected="TestNG.APITest005_BDDStyle_TestNG">
     <configuration name="APITest005_BDDStyle_TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sampleCheck.*" />
+          <option name="PATTERN" value="GET.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.sampleCheck" />
-      <option name="MAIN_CLASS_NAME" value="org.example.sampleCheck.APITest005_BDDStyle_TestNG" />
+      <option name="PACKAGE_NAME" value="GET" />
+      <option name="MAIN_CLASS_NAME" value="GET.APITest005_BDDStyle_TestNG" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,12 +101,12 @@
       <module name="ATB8xAPIProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sampleCheck.*" />
+          <option name="PATTERN" value="POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.sampleCheck" />
-      <option name="MAIN_CLASS_NAME" value="org.example.sampleCheck.APITest005_BDDStyle_TestNG" />
+      <option name="MAIN_CLASS_NAME" value="GET.APITest005_BDDStyle_TestNG" />
       <option name="METHOD_NAME" value="test_GET_Req_Pos" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -116,12 +119,12 @@
       <module name="ATB8xAPIProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sampleCheck.*" />
+          <option name="PATTERN" value="POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.sampleCheck" />
-      <option name="MAIN_CLASS_NAME" value="org.example.sampleCheck.APITest006_NonBDDStyle_TestNG" />
+      <option name="MAIN_CLASS_NAME" value="GET.APITest006_NonBDDStyle_TestNG" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,28 +132,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITest006_NonBDDStyle_TestNG.test_NonBDDStyle_GET_Pos" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITest007_BDDStyle_TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sampleCheck.*" />
+          <option name="PATTERN" value="POST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.sampleCheck" />
-      <option name="MAIN_CLASS_NAME" value="org.example.sampleCheck.APITest006_NonBDDStyle_TestNG" />
-      <option name="METHOD_NAME" value="test_NonBDDStyle_GET_Pos" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="POST.APITest007_BDDStyle_TestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="APITest008_NonBDDStyle_TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIProgram" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-get.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POST" />
+      <option name="MAIN_CLASS_NAME" value="POST.APITest008_NonBDDStyle_TestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.APITest006_NonBDDStyle_TestNG" />
-        <item itemvalue="TestNG.APITest005_BDDStyle_TestNG.test_GET_Req_Pos" />
-        <item itemvalue="TestNG.APITest006_NonBDDStyle_TestNG.test_NonBDDStyle_GET_Pos" />
-        <item itemvalue="TestNG.C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml" />
         <item itemvalue="TestNG.APITest005_BDDStyle_TestNG" />
+        <item itemvalue="TestNG.APITest006_NonBDDStyle_TestNG" />
+        <item itemvalue="TestNG.APITest008_NonBDDStyle_TestNG" />
+        <item itemvalue="TestNG.APITest007_BDDStyle_TestNG" />
+        <item itemvalue="TestNG.APITest005_BDDStyle_TestNG.test_GET_Req_Pos" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745455220726</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TestNG BDD and Non-BDD changes">
+      <option name="closed" value="true" />
+      <created>1745775374526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745775374526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,7 +233,8 @@
     <MESSAGE value="API test added" />
     <MESSAGE value="API Builder Method" />
     <MESSAGE value="TestNG BDD and Non-BDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG BDD and Non-BDD" />
+    <MESSAGE value="TestNG BDD and Non-BDD changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG BDD and Non-BDD changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ATB8xAPIProgram$APITest006_NonBDDStyle_TestNG.ic" NAME="APITest006_NonBDDStyle_TestNG Coverage Results" MODIFIED="1745627183409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

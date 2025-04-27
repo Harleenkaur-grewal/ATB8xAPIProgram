@@ -1,4 +1,4 @@
-package org.example.sampleCheck;
+package GET;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;

@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="ATB8xAPIProgram">
         <classes>
-            <class name="org.example.sampleCheck.APITest006_NonBDDStyle_TestNG">
+            <class name="GET.APITest006_NonBDDStyle_TestNG">
             </class>
         </classes>
     </test>
