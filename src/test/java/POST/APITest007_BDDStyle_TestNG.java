@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 
 public class APITest007_BDDStyle_TestNG {
-    @Description("Verify the POST Request-BDD Style")
+    @Description("Verify the POST Request(Authentication)-BDD Style")
     @Test
     public void test_POST_Req_BDD() {
         String payload = "{\n" +
