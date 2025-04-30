@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfbff48-f885-4308-a27b-3306f471b086" name="Changes" comment="BDD and Non BDD Style">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DELETE/APITeat013_NonBDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Integration/APITest014_IntegratedNonBDD_Booker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Integration/Notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PATCH/APITest012_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/POST/API009_BDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/POST/API010_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PUT/APITest011_NonBDDStyle_TestNG.java" afterDir="false" />
+    <list default="true" id="4dfbff48-f885-4308-a27b-3306f471b086" name="Changes" comment="CRUD Operations">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagement/APITest015_Payload_GSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagement/APITest016_Ser_DeSer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagement/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagement/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PayloadManagement/Bookingdates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POST/APITest007_BDDStyle_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POST/APITest007_BDDStyle_TestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/POST/APITest008_NonBDDStyle_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/POST/APITest008_NonBDDStyle_TestNG.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +78,8 @@
     "TestNG.APITest014_IntegratedNonBDD_Booker.executor": "Run",
     "TestNG.APITest014_IntegratedNonBDD_Booker.test_update_request_get.executor": "Run",
     "TestNG.APITest014_IntegratedNonBDD_Booker.test_update_request_put.executor": "Run",
+    "TestNG.APITest015_Payload_GSON.executor": "Run",
+    "TestNG.APITest016_Ser_DeSer.executor": "Run",
     "TestNG.C:/Users/hkgre/IdeaProjects/ATB8xAPIProgram/testng-get.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -95,42 +93,7 @@
       <recent name="C:\Users\hkgre\IdeaProjects\ATB8xAPIProgram" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.APITest014_IntegratedNonBDD_Booker">
-    <configuration name="APITeat013_NonBDD" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8xAPIProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DELETE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DELETE" />
-      <option name="MAIN_CLASS_NAME" value="DELETE.APITeat013_NonBDD" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITeat013_NonBDD.test_DELETE_Request_BDD" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8xAPIProgram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DELETE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DELETE" />
-      <option name="MAIN_CLASS_NAME" value="DELETE.APITeat013_NonBDD" />
-      <option name="METHOD_NAME" value="test_DELETE_Request_BDD" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.APITest015_Payload_POJO">
     <configuration name="APITest014_IntegratedNonBDD_Booker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIProgram" />
       <extension name="coverage">
@@ -184,13 +147,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="APITest015_Payload_POJO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PayloadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PayloadManagement" />
+      <option name="MAIN_CLASS_NAME" value="PayloadManagement.APITest015_Payload_POJO" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest016_Ser_DeSer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PayloadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PayloadManagement" />
+      <option name="MAIN_CLASS_NAME" value="PayloadManagement.APITest016_Ser_DeSer" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITest015_Payload_POJO" />
+        <item itemvalue="TestNG.APITest016_Ser_DeSer" />
         <item itemvalue="TestNG.APITest014_IntegratedNonBDD_Booker" />
         <item itemvalue="TestNG.APITest014_IntegratedNonBDD_Booker.test_update_request_get" />
         <item itemvalue="TestNG.APITest014_IntegratedNonBDD_Booker.test_update_request_put" />
-        <item itemvalue="TestNG.APITeat013_NonBDD.test_DELETE_Request_BDD" />
-        <item itemvalue="TestNG.APITeat013_NonBDD" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745779710692</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CRUD Operations">
+      <option name="closed" value="true" />
+      <created>1745951823676</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745951823676</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,7 +277,8 @@
     <MESSAGE value="TestNG BDD and Non-BDD" />
     <MESSAGE value="TestNG BDD and Non-BDD changes" />
     <MESSAGE value="BDD and Non BDD Style" />
-    <option name="LAST_COMMIT_MESSAGE" value="BDD and Non BDD Style" />
+    <MESSAGE value="CRUD Operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD Operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
